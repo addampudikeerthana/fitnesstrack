@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Progress - FitnessTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h2>FitnessTrack</h2>
+
+        <div>
+            <button onclick="goDashboard()" class="small-btn">
+                Dashboard
+            </button>
+
+            <button onclick="logout()" class="small-btn">
+                Logout
+            </button>
+        </div>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h1>📊 My Fitness Progress</h1>
+    <p>Track your daily fitness activities and goals.</p>
+
+    <div class="progress-page-grid">
+
+        <div class="card">
+            <h3>💧 Water Intake</h3>
+            <h2 id="progressWater">0 / 8</h2>
+            <p>Glasses completed today</p>
+        </div>
+
+        <div class="card">
+            <h3>🏋️ Workout</h3>
+            <h2 id="progressCalories">0</h2>
+            <p>Calories recorded</p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 Goals</h3>
+            <h2 id="progressGoals">0 / 5</h2>
+            <p>Daily goals completed</p>
+        </div>
+
+    </div>
+
+    <div class="water-box">
+
+        <h2>Overall Progress</h2>
+
+        <div class="big-progress">
+            <h1 id="overallProgress">0%</h1>
+            <p id="progressStatus">
+                Start your fitness activities today!
+            </p>
+        </div>
+
+        <div class="progress-bar">
+            <div id="overallProgressBar"></div>
+        </div>
+
+    </div>
+
+    <div class="card progress-tips">
+
+        <h2>💡 Daily Fitness Tips</h2>
+
+        <ul>
+            <li>Drink water regularly.</li>
+            <li>Complete your planned workout.</li>
+            <li>Follow balanced meals.</li>
+            <li>Complete your daily goals.</li>
+            <li>Maintain a healthy sleep schedule.</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

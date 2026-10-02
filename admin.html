@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin - FitnessTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>FitnessTrack Admin</h2>
+        <button onclick="logout()" class="small-btn">Logout</button>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h1>Admin Dashboard</h1>
+
+    <div class="admin-grid">
+
+        <div class="card">
+            <h3>Total Users</h3>
+            <h2 id="totalUsers">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Workout Module</h3>
+            <p>Active</p>
+        </div>
+
+        <div class="card">
+            <h3>Water Module</h3>
+            <p>Active</p>
+        </div>
+
+        <div class="card">
+            <h3>Progress Module</h3>
+            <p>Active</p>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Registered Users</h2>
+
+        <div id="userList"></div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

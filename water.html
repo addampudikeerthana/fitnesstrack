@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Intake - FitnessTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Water Intake</h2>
+        <button onclick="goDashboard()" class="small-btn">Dashboard</button>
+    </nav>
+</header>
+
+<section class="container">
+
+    <div class="water-box">
+
+        <h1>Daily Water Intake</h1>
+
+        <h2><span id="waterCount">0</span> / 8 Glasses</h2>
+
+        <div class="progress-bar">
+            <div id="waterProgress"></div>
+        </div>
+
+        <div class="button-row">
+            <button onclick="addWater()" class="btn">+ Add Glass</button>
+            <button onclick="resetWater()" class="btn reset">Reset</button>
+        </div>
+
+        <p>Drink water regularly throughout the day.</p>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard - FitnessTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>FitnessTrack</h2>
+
+        <div>
+            <span id="welcomeUser"></span>
+            <button onclick="logout()" class="small-btn">Logout</button>
+        </div>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h1>User Dashboard</h1>
+    <p>Select a feature to continue.</p>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-card" onclick="openPage('workout.html')">
+            <h2>🏋️</h2>
+            <h3>Today's Workout</h3>
+            <p>Complete your daily exercises.</p>
+            <button class="btn">Open</button>
+        </div>
+
+        <div class="dashboard-card" onclick="openPage('food.html')">
+            <h2>🥗</h2>
+            <h3>Food Plan</h3>
+            <p>View healthy food guidance.</p>
+            <button class="btn">Open</button>
+        </div>
+
+        <div class="dashboard-card" onclick="openPage('water.html')">
+            <h2>💧</h2>
+            <h3>Water Intake</h3>
+            <p>Track your daily water.</p>
+            <button class="btn">Open</button>
+        </div>
+
+        <div class="dashboard-card" onclick="openPage('reminders.html')">
+            <h2>⏰</h2>
+            <h3>Reminders</h3>
+            <p>Manage your daily reminders.</p>
+            <button class="btn">Open</button>
+        </div>
+
+        <div class="dashboard-card" onclick="openPage('goals.html')">
+            <h2>🎯</h2>
+            <h3>Daily Goals</h3>
+            <p>Track your daily goals.</p>
+            <button class="btn">Open</button>
+        </div>
+
+        <div class="dashboard-card" onclick="openPage('progress.html')">
+            <h2>📊</h2>
+            <h3>My Progress</h3>
+            <p>View your fitness progress.</p>
+            <button class="btn">Open</button>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

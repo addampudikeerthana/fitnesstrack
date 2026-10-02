@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workout - FitnessTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Workout</h2>
+        <button onclick="goDashboard()" class="small-btn">Dashboard</button>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h1>Today's Workout</h1>
+
+    <div class="workout-grid">
+
+        <div class="card">
+            <h3>Warm Up</h3>
+            <p>5 minutes</p>
+            <button onclick="completeWorkout(20)" class="btn">Complete</button>
+        </div>
+
+        <div class="card">
+            <h3>Squats</h3>
+            <p>3 × 12 repetitions</p>
+            <button onclick="completeWorkout(40)" class="btn">Complete</button>
+        </div>
+
+        <div class="card">
+            <h3>Push Ups</h3>
+            <p>3 × 10 repetitions</p>
+            <button onclick="completeWorkout(35)" class="btn">Complete</button>
+        </div>
+
+        <div class="card">
+            <h3>Walking</h3>
+            <p>20 minutes</p>
+            <button onclick="completeWorkout(60)" class="btn">Complete</button>
+        </div>
+
+        <div class="card">
+            <h3>Stretching</h3>
+            <p>10 minutes</p>
+            <button onclick="completeWorkout(25)" class="btn">Complete</button>
+        </div>
+
+        <div class="card">
+            <h3>Cool Down</h3>
+            <p>5 minutes</p>
+            <button onclick="completeWorkout(15)" class="btn">Complete</button>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

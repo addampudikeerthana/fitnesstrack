@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Goals - FitnessTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Daily Goals</h2>
+        <button onclick="goDashboard()" class="small-btn">Dashboard</button>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h1>Today's Goals</h1>
+
+    <div class="goals-box">
+
+        <label>
+            <input type="checkbox" class="goal">
+            Drink 8 glasses of water
+        </label>
+
+        <label>
+            <input type="checkbox" class="goal">
+            Complete today's workout
+        </label>
+
+        <label>
+            <input type="checkbox" class="goal">
+            Eat balanced meals
+        </label>
+
+        <label>
+            <input type="checkbox" class="goal">
+            Walk regularly
+        </label>
+
+        <label>
+            <input type="checkbox" class="goal">
+            Maintain healthy sleep
+        </label>
+
+        <button onclick="saveGoals()" class="btn">Save Goals</button>
+
+        <p id="goalMessage"></p>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
